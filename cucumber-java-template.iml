@@ -18,7 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.8 (1)" jdkType="JavaSDK" />
     <orderEntry type="library" name="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER" level="application" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-java:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-core:1.2.0" level="project" />

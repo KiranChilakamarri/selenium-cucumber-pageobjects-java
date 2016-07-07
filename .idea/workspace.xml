@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a946cd9b-fb3c-451f-9b05-d538ca8acb46" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/ICS_Tester.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/features/UserLogin.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/modules/SignInAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/modules/SignoutAction.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/AutomationHomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/ContactusPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/step_definitions/BlankStepDefs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/step_definitions/ShoppingCart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/features/seleniumframework.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/testData/TestData-seleniumframework.xlsx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" afterPath="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
+    <list default="true" id="a946cd9b-fb3c-451f-9b05-d538ca8acb46" name="Default" comment="With one time usage of driver across all step definitions - working code :).">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Test Results - Feature__UserLogin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cucumber-java-template.iml" afterPath="$PROJECT_DIR$/cucumber-java-template.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java" />
     </list>
     <ignored path="cucumber-java-template.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,30 +19,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cucumber-java-template$Feature__UserLogin.coverage" NAME="Feature: UserLogin Coverage Results" MODIFIED="1467885779099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" openResultsInEditor="true" userTempatePath="" />
   <component name="FavoritesManager">
     <favorites_list name="cucumber-java-template" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="UserLogin.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserLogin.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserLoginStepdefs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserLoginStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="148">
+              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,15 +95,16 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/BaseClass.java" />
         <option value="$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.0/cucumber-core-1.2.0.jar!/cucumber/runtime/Utils.class" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/UserLogin.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/AutomationHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/ContactusPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/BlankStepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/step_definitions/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/test/java/helpers/DataHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
-        <option value="$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/UserLogin.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java" />
+        <option value="$PROJECT_DIR$/Test Results - Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link.html" />
+        <option value="$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java" />
       </list>
     </option>
   </component>
@@ -111,8 +118,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -139,6 +146,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,7 +162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-cucumber-java" />
+              <option name="myItemId" value="selenium-cucumber-pageobjects-java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -164,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-cucumber-java" />
+              <option name="myItemId" value="selenium-cucumber-pageobjects-java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -190,7 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selenium-cucumber-java" />
+              <option name="myItemId" value="selenium-cucumber-pageobjects-java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -201,10 +209,65 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber-java-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-cucumber-pageobjects-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pageobjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber-java-template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selenium-cucumber-pageobjects-java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -215,6 +278,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="198" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="227" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="229" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="903" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="224" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="223" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="224" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="899" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager" selected="Cucumber java.Feature: UserLogin">
     <configuration default="false" name="Scenario: Print title, url" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
@@ -289,10 +368,95 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="All Features in: selenium-cucumber-pageobjects-java" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="myNameFilter" value="" />
+      <option name="myGeneratedName" value="All Features in: selenium-cucumber-pageobjects-java" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cucumber-java-template" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: User should see login URL when clicked on My Vodafone link" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/UserLogin.feature" />
+      <option name="GLUE" value="step_definitions" />
+      <option name="myNameFilter" value="^User should see login URL when clicked on My Vodafone link$" />
+      <option name="myGeneratedName" value="Scenario: User should see login URL when clicked on My Vodafone link" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User should see login URL when clicked on My Vodafone link$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cucumber-java-template" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -505,16 +669,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Scenario: Print title, url" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should not be able to login with invalid credentials" />
       <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: UserLogin" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.All Features in: selenium-cucumber-pageobjects-java" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should see login URL when clicked on My Vodafone link" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: UserLogin" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should not be able to login with invalid credentials" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: Print title, url" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should see login URL when clicked on My Vodafone link" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.All Features in: selenium-cucumber-pageobjects-java" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: User should not be able to login with invalid credentials" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Print title, url" />
       </list>
     </recent_temporary>
   </component>
@@ -535,63 +703,66 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__UserLogin - 2016.07.06 at 00h 34m 13s.xml">
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 21h 42m 48s.xml">
       <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__UserLogin - 2016.07.06 at 00h 37m 39s.xml">
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 21h 51m 18s.xml">
       <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__UserLogin - 2016.07.06 at 01h 04m 08s.xml">
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 21h 54m 08s.xml">
       <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Feature__UserLogin - 2016.07.06 at 01h 08m 09s.xml">
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 21h 56m 10s.xml">
       <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 08m 44s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 22h 03m 41s.xml">
+      <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 09m 29s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Feature__UserLogin - 2016.07.07 at 22h 04m 27s.xml">
+      <configuration name="Feature: UserLogin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 26m 26s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link - 2016.07.06 at 22h 21m 00s.xml">
+      <configuration name="Scenario: User should see login URL when clicked on My Vodafone link" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 28m 07s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link - 2016.07.06 at 22h 21m 46s.xml">
+      <configuration name="Scenario: User should see login URL when clicked on My Vodafone link" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 32m 12s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link - 2016.07.07 at 21h 41m 06s.xml">
+      <configuration name="Scenario: User should see login URL when clicked on My Vodafone link" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__User_should_not_be_able_to_login_with_invalid_credentials - 2016.07.06 at 00h 33m 10s.xml">
-      <configuration name="Scenario: User should not be able to login with invalid credentials" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link - 2016.07.07 at 21h 41m 55s.xml">
+      <configuration name="Scenario: User should see login URL when clicked on My Vodafone link" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49122807" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42780027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43184885" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3027027" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42837837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43243244" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -605,9 +776,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="With one time usage of driver across all step definitions - working code :)." />
+    <option name="LAST_COMMIT_MESSAGE" value="With one time usage of driver across all step definitions - working code :)." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -616,6 +791,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserLogin.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/seleniumframework.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/ShoppingCart.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/seleniumframework.feature" />
@@ -664,27 +857,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DataHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="816">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.0/cucumber-core-1.2.0-sources.jar!/cucumber/runtime/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="340">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -697,25 +896,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/helpers/DataHelper.java">
+    <entry file="file://$PROJECT_DIR$/Test Results - Scenario__User_should_see_login_URL_when_clicked_on_My_Vodafone_link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserLogin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/UserLoginStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="148">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test Results - Feature__UserLogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="593" column="1" selection-start-line="593" selection-start-column="1" selection-end-line="593" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/step_definitions/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -728,6 +946,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

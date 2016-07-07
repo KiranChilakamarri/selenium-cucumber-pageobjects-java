@@ -13,8 +13,8 @@ import static org.testng.AssertJUnit.assertEquals;
 public class UserLoginStepdefs {
 
     private static Logger Log = Logger.getLogger(helpers.Log.class.getName());
-    public WebDriver driver;
-    Hooks hook = new Hooks();
+
+    public WebDriver driver = Hooks.driver;
 
     public UserLoginStepdefs()
     {
@@ -22,13 +22,11 @@ public class UserLoginStepdefs {
     }
     @Given("^I launch Vodafone website$")
     public void iLaunchVodafoneWebsite() throws Throwable {
-        hook.getDriverAndURL();
         Log.info("Successfully loaded application on to browser");
     }
 
     @When("^I click on my vodafone link$")
     public void iClickOnMyVodafoneLink() throws Throwable {
-        driver = Hooks.driver;
         PageFactory.initElements(driver, LoginPage.class);
         LoginPage.myVodaFoneLink.click();
     }
@@ -41,7 +39,6 @@ public class UserLoginStepdefs {
 
     @When("^I login as a invalid user with (.*) and (.*) and click on login button$")
     public void iLoginAsAInvalidUserWithUsernameAndPasswordAndClickOnLoginButton(String username, String password) throws Throwable {
-        driver = Hooks.driver;
         PageFactory.initElements(driver, LoginPage.class);
         LoginPage.myVodaFoneLink.click();
         LoginPage.loginButton.click();
@@ -52,7 +49,6 @@ public class UserLoginStepdefs {
 
     @Then("^I should see error message below the username field as (.*)$")
     public void iShouldSeeErrorMessageBelowTheUsernameFieldAsErrorMessage(String errorMessage) throws Throwable {
-        driver = Hooks.driver;
         PageFactory.initElements(driver, LoginPage.class);
         assertEquals(errorMessage,LoginPage.submit_error.getText().toString());
     }

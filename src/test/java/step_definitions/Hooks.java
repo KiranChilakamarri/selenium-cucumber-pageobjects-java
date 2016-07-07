@@ -33,9 +33,8 @@ public class Hooks{
      */
     public void openBrowser() throws MalformedURLException {
     	System.out.println("Called openBrowser");
-    	//getDriverAndURL();
     }
-
+    @Before
     public void getDriverAndURL() {
         if (browserName.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
