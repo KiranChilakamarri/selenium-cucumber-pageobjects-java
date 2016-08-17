@@ -7,10 +7,10 @@ Build project using maven
 
 Run tests from /src/test/resources/features/
 
-Same project is 7 zipped and uploaded here with name 'Selenium.7z'.
+Same project is 7 zipped and uploaded here with name 'Selenium.7z' (this comes with all dependent jars so can run tests directly)
 
-I have recorded deploying thee api's and running sample tests which can be found with name 'selenium-cucumber-java.fbr' (Blackberry Flashback player is required to play this file)
+please refer 'selenium-cucumber-java.fbr' file to see how these tests are running (Blackberry Flashback player is required to play this file)
 
-This Keyword driven, data driven which means Hybrid framework. Just load data from xls or from properties file. Firefox & Chrome browsers are added natively to project which means you can straight away run tests with out depending on your local browser. 
+This Keyword driven, data driven framework. Just load data from xls or from properties file. Firefox & Chrome browsers are added natively to project which means you can straight away run tests with out depending on your local browser. 
 
 Navigate to /properties/input.properties file and chagen browsername or add any other input fields on framework level.
