@@ -13,4 +13,4 @@ please refer 'selenium-cucumber-java.fbr' file to see how these tests are runnin
 
 This Keyword driven, data driven framework. Just load data from xls or from properties file. Firefox & Chrome browsers are added natively to project which means you can straight away run tests with out depending on your local browser. 
 
-Navigate to /properties/input.properties file and chagen browsername or add any other input fields on framework level.
+Navigate to /properties/input.properties file and change browser name or add any other input fields on framework level.
